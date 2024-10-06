@@ -7,7 +7,7 @@
 ### Ważne
 
 - Aby przetestować API, możesz użyć narzędzi takich jak Postman.
-- W projekt przetestowano z użyciem testó jednostkowych, które dały 100% pokrycia kodu oraz z użyciem testów integracyjnych.
+- Projekt przetestowano z użyciem testów jednostkowych, które dały 100% pokrycia kodu oraz z użyciem testów integracyjnych.
 
 ## Funkcjonalności
 
