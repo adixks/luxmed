@@ -8,6 +8,7 @@
 
 - Aby przetestować API, możesz użyć narzędzi takich jak Postman.
 - Projekt przetestowano z użyciem testów jednostkowych, które dały 100% pokrycia kodu oraz z użyciem testów integracyjnych.
+- Projekt po każdym wypchniętym commicie na nowo buduję apliakcję oraz uruchamia testy z użyciem narzędzia CICD jakim jest CircleCI.
 
 ## Funkcjonalności
 
