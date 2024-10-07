@@ -76,7 +76,7 @@ Możesz uruchomić aplikację lokalnie za pomocą następującego polecenia:
 
 Aplikacja domyślnie działa na porcie 8080.
 
-## Aby uruchomić aplikację z użyciem Dockera, wykonaj następujące kroki:
+## Uruchamianie aplikacji z użyciem Dockera
 
 1. **Zainstaluj Docker**:
    - Upewnij się, że masz zainstalowany Docker Desktop na swoim komputerze. Możesz pobrać go z [oficjalnej strony Docker](https://www.docker.com/products/docker-desktop).
