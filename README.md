@@ -78,7 +78,7 @@ Możesz uruchomić aplikację lokalnie za pomocą następującego polecenia:
 
 Aplikacja domyślnie działa na porcie 8080.
 
-## Uruchamianie aplikacji z użyciem Dockera
+## Aby uruchomić aplikację z użyciem Dockera, wykonaj następujące kroki:
 
 1. **Zainstaluj Docker**:
    - Upewnij się, że masz zainstalowany Docker Desktop na swoim komputerze. Możesz pobrać go z [oficjalnej strony Docker](https://www.docker.com/products/docker-desktop).
@@ -115,3 +115,5 @@ Wszystkie zmiany wprowadzone w projekcie muszą być ponownie zbudowane w konten
 ### Uwaga
 
 - Zastąp `yourusername` w linku do repozytorium oraz `yourpassword` w sekcji konfiguracji odpowiednimi wartościami.
+- Aby przetestować API, możesz użyć narzędzi takich jak Postman.
+- W projekt przetestowano z użyciem testó jednostkowych, które dały 100% pokrycia kodu oraz z użyciem testów integracyjnych.
