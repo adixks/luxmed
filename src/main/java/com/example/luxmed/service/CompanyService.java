@@ -14,8 +14,8 @@ import java.util.stream.Collectors;
 @Service
 @AllArgsConstructor
 public class CompanyService {
-    private CompanyRepository companyRepository;
-    private CompanyMapper companyMapper;
+    private final CompanyRepository companyRepository;
+    private final CompanyMapper companyMapper;
 
     public List<CompanyDto> getAllCompanies() {
         return companyRepository.findAll()

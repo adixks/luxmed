@@ -16,7 +16,7 @@ import java.util.List;
 @RequestMapping("/api/companies")
 @Validated
 public class CompanyController {
-    private CompanyService companyService;
+    private final CompanyService companyService;
 
     @GetMapping
     public List<CompanyDto> getAllCompanies() {

@@ -4,11 +4,7 @@
 
 **Company Management Service** to prosty mikroserwis stworzony w Javie z użyciem frameworka Spring Boot. Aplikacja umożliwia zarządzanie informacjami o firmach, ich działach, zespołach, projektach oraz menedżerach. Użytkownicy mogą wykonywać operacje CRUD (tworzenie, odczyt, aktualizacja, usuwanie) na tych obiektach za pomocą RESTful API.
 
-### Ważne
-
-- Aby przetestować API, możesz użyć narzędzi takich jak Postman.
-- Projekt przetestowano z użyciem testów jednostkowych, które dały 100% pokrycia kodu oraz z użyciem testów integracyjnych.
-- Projekt po każdym wypchniętym commicie na nowo buduję apliakcję oraz uruchamia testy z użyciem narzędzia CICD jakim jest CircleCI.
+Aby przetestować API, możesz użyć narzędzi takich jak Postman. Projekt poddano testom z użyciem testów jednostkowych, które dały 100% pokrycia kodu oraz z użyciem testów integracyjnych. Dodatkowo projekt ma skonfigurowane narzędzie CICD - CircleCI, które rozpoczyna proces budowania i testowania aplikacji po każdym przekazanym do repositorium commicie oraz po dokonaniu mergu.
 
 ## Funkcjonalności
 
@@ -119,3 +115,5 @@ Wszystkie zmiany wprowadzone w projekcie muszą być ponownie zbudowane w konten
 ### Uwaga
 
 - Zastąp `yourusername` w linku do repozytorium oraz `yourpassword` w sekcji konfiguracji odpowiednimi wartościami.
+- Aby przetestować API, możesz użyć narzędzi takich jak Postman.
+- W projekt przetestowano z użyciem testó jednostkowych, które dały 100% pokrycia kodu oraz z użyciem testów integracyjnych.
